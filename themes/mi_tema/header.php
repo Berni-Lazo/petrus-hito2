@@ -20,16 +20,16 @@
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link" href="#about">Inicio</a>
+								<a class="nav-link" href="inicio">Inicio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="services.html">Rutas</a>
+								<a class="nav-link" href="rutas">Rutas</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="gallery.html">Galería</a>
+								<a class="nav-link" href="galeria">Galería</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="contact.html">Contacto</a>
+								<a class="nav-link" href="contacto">Contacto</a>
 							</li>
 						</ul>
 					</div>
