@@ -1,0 +1,91 @@
+.services {
+  background-color: $dark-green;
+  margin-top: 90px;
+
+  &__title {
+    color: $light-orange;
+    text-align: center;
+  }
+
+  &__description {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin: 1.5em;
+  }
+
+  &__article {
+    @extend %article;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: $palid-green;
+    padding: 1em;
+  }
+}
+
+.article {
+
+  &__title_papyrus {
+    font-family: $papyrus;
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+
+    &__button {
+    text-decoration: none;
+    color: $light-orange;
+    font-size: 2em;
+
+    &:hover {
+      color: $dark-green;
+      }
+  }
+}
+
+.card {
+  font-size: .7em;
+  border: 2px solid $dark-green;
+  color: $dark-orange;
+  margin-bottom: 2em;
+
+  span {
+    font-weight: 700;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .services {
+
+    &__description {
+      font-size: 1.2em;
+      margin: 2em;
+
+    }
+
+    &__article {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      background-color: $palid-green;
+      padding: 1em;
+    }
+  }
+
+
+.article {
+  &__title_papyrus {
+    font-size: 2.5em;
+  }
+}
+
+.card {
+  font-size: 1em;
+}
+}

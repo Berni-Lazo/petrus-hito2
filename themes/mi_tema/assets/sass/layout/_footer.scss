@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-green;
+  border-top: 3px solid $light-orange;
+  height: 25%;
+
+  &__img {
+    padding: 1em;
+    width: 20%;
+  }
+}

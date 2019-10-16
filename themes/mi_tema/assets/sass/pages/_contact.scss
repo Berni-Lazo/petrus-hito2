@@ -1,0 +1,127 @@
+.contact {
+  background-color: $dark-green;
+  margin-top: 90px;
+
+  &__title {
+    color: $light-orange;
+    text-align: center;
+  }
+
+  &__description {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin: 1.5em;
+  }
+
+  &__box {
+    background-image: url("../images/contact-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 4em;
+    padding-bottom: 4em;
+    padding-top: 1em;
+  }
+
+  &__icons {
+    color: &$dark-green;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    padding: 1em;
+    margin: 1em auto;
+    text-align: center;
+    min-width: 290px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  &__icon {
+      color: $dark-green;
+      font-size: 2em;
+      font-weight: 900;
+      animation: roll-in-left 0.6s ease-out both;
+
+      &_4 {
+        @extend .contact__icon;
+        animation-delay: 0.4s;
+      }
+
+      &_3 {
+        @extend .contact__icon;
+        animation-delay: 0.8s;
+      }
+
+      &_2 {
+        @extend .contact__icon;
+        animation-delay: 1.2s;
+      }
+    }
+
+
+  &__info {
+      display: none;
+  }
+
+
+  &__form {
+    border: 5px solid $dark-orange;
+    color: $dark-green;
+    padding: 2em;
+    width: 80%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    input {
+      width: 100%;
+      margin-bottom: 2em;
+    }
+
+    a {
+      @extend .carousel-caption__button;
+      margin: 2em;
+
+    }
+  }
+}
+
+@keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    margin-top: 120px;
+  }
+}
+
+
+
+@media (min-width: 992px) {
+.contact {
+
+  &__description {
+      font-size: 1.2em;
+      margin: 2em;
+    }
+
+  &__icons {
+    padding-top: 2em;
+  }
+
+  &__info {
+      display: block;
+      padding: 1em;
+      font-size: 1.1em;
+  }
+  }
+}

@@ -1,0 +1,246 @@
+
+.main {
+
+  &__articles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+  }
+
+  &__article_1 {
+  @extend %article;
+  border-radius: 50%;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+  padding-top: 1.5em;
+  background-image: radial-gradient(ellipse farthest-corner at 65% 35% , #ffffff 0%, $palid-green 40%, $middle-green 65%);
+  background-size: 300% 300%;
+  animation: colors 3s linear infinite;
+  }
+
+  &__article_2 {
+  @extend .main__article_1;
+  animation-delay: 1s;
+  }
+
+  &__article_3 {
+  @extend .main__article_1;
+  animation-delay: 2s;
+}
+}
+
+@keyframes colors {
+    0%{background-position:20% 20%}
+    6%{background-position: 30% 15%}
+    12%{background-position:50% 10%}
+    25%{background-position:80% 20%}
+    37%{background-position:90% 50%}
+    50%{background-position:80% 80%}
+    62%{background-position:50% 90%}
+    75%{background-position:20% 80%}
+    87%{background-position:10% 50%}
+    93%{background-position: 15% 30%}
+    100%{background-position:20% 20%}
+}
+
+
+.article {
+
+  &__icon {
+    svg {
+      padding: 1.5em;
+    }
+  }
+
+  &__img {
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    }
+
+  &__title {
+    font-size: 1em;
+  }
+
+  &__description {
+    color: $dark-green;
+    font-size: 0.8em;
+
+  }
+}
+
+
+.news {
+  padding: 2em;
+  background-color: $palid-green;
+  text-align: center;
+
+  h2 {
+    color: $dark-green;
+    font-weight: bold;
+  }
+
+  &__post {
+    margin-top: 2em;
+    border: 5px solid white;
+    padding: 1em;
+    background-color: $dark-green;
+  }
+
+  &__img {
+    padding: 1em;
+    margin: 0 auto;
+    width: 80%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__text {
+    padding: 1em;
+
+  }
+
+  &__title {
+    color: $dark-orange;
+    font-size: 1em;
+  }
+
+  &__subtitle {
+    color: $palid-green;
+    font-size: 0.8em;
+  }
+
+  &__description {
+    color: white;
+    font-style: italic;
+    font-size: 0.7em;
+  }
+
+  &__button {
+    @include button;
+    }
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+
+  i {
+    font-size: 1.8em;
+    color: $dark-orange;
+    padding: 0.8em;
+
+    &:hover {
+      transform: scale(1.7);
+      text-shadow: 1px 1px $light-orange;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .news {
+
+
+    &__post {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+      background-color: $dark-green;
+    }
+
+    &__img {
+      padding: 1em;
+      width: 40%;
+    }
+
+    &__text {
+      width: 60%;
+      }
+  }
+}
+
+@media (min-width: 992px) {
+.main {
+    &__article_1 {
+    width: 350px;
+    height: 350px;
+    padding: 1.6em;
+    }
+
+    &__article_2 {
+      width: 350px;
+      height: 350px;
+      padding: 1.6em;
+    }
+
+    &__article_3 {
+      width: 350px;
+      height: 350px;
+      padding: 1.6em;
+  }
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+
+  &__img {
+    min-width: 50%;
+    max-width: 50%;
+    margin-right: 1em;
+
+    img {
+      width: 100%;
+    }
+  }
+
+
+  &__icon {
+    width: 40%;
+
+    svg {
+      padding: 0.2em;
+    }
+  }
+
+  &__title {
+    font-size: 1.5em;
+  }
+
+  &__description {
+    font-size: 1em;
+
+  }
+}
+
+.icons {
+    i {
+    font-size: 3em;
+  }
+}
+
+
+.news {
+  &__title {
+    font-size: 1.5em;
+  }
+  &__description {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+
+}
+}

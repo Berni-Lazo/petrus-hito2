@@ -1,0 +1,14 @@
+.gallery {
+  margin-top: 90px;
+
+  &__title {
+    color: $light-orange;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    margin-top: 120px;
+  }
+}

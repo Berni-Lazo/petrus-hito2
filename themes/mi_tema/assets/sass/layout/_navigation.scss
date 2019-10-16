@@ -1,0 +1,45 @@
+nav {
+  background-color: $dark-green;
+  border-bottom: 3px solid $light-orange;
+}
+
+.navbar {
+
+   &__logo {
+     width: 35%;
+   }
+
+   &__img {
+    width: 100%;
+   }
+}
+
+.navbar-toggler {
+  i {
+    color: $light-orange;
+    font-size: 2em;
+  }
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 1.25em;
+  color: $dark-orange;
+  text-shadow: 2px 2px black;
+
+  &:hover {
+    color: $light-orange;
+  }
+}
+
+@media (min-width: 992px) {
+.navbar {
+
+   &__logo {
+     width: 20%;
+   }
+}
+}
