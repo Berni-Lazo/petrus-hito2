@@ -9823,6 +9823,15 @@ nav {
   width: 20%;
 }
 
+.main__specialties {
+  margin-top: 1em;
+  text-align: center;
+}
+.main__specialties h2 {
+  font-size: 1.2em;
+  color: #1B2508;
+  font-weight: bold;
+}
 .main__articles {
   display: flex;
   justify-content: center;
@@ -9963,6 +9972,13 @@ nav {
 }
 
 @media (min-width: 768px) {
+  .main__specialties {
+    margin-top: 2em;
+  }
+  .main__specialties h2 {
+    font-size: 2em;
+  }
+
   .news__post {
     display: flex;
     justify-content: center;
@@ -10235,7 +10251,7 @@ nav {
 }
 .article__button {
   text-decoration: none;
-  background-color: #E67E22;
+  background-color: #D35400;
   color: white;
   margin: 1em;
   font-size: 0.8em;
@@ -10246,7 +10262,7 @@ nav {
 }
 .article__button:hover {
   text-decoration: none;
-  background-color: #1B2508;
+  background-color: #E67E22;
   color: white;
 }
 

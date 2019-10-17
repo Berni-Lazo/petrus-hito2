@@ -40,7 +40,7 @@
 
     &__button {
     text-decoration: none;
-    background-color: $light-orange;
+    background-color: $dark-orange;
     color: white;
     margin: 1em;
     font-size: .8em;
@@ -52,7 +52,7 @@
 
     &:hover {
       text-decoration: none;
-      background-color: $dark-green;
+      background-color: $light-orange;
       color: white;
       }
   }

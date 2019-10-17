@@ -1,6 +1,17 @@
 
 .main {
 
+  &__specialties {
+    margin-top: 1em;
+    text-align: center;
+
+    h2 {
+      font-size: 1.2em;
+      color: $dark-green;
+      font-weight: bold;
+    }
+  }
+
   &__articles {
     display: flex;
     justify-content: center;
@@ -143,6 +154,16 @@
 
 
 @media (min-width: 768px) {
+  .main {
+    &__specialties {
+      margin-top: 2em;
+
+      h2 {
+       font-size: 2em;
+      }
+    }
+  }
+
   .news {
 
 
