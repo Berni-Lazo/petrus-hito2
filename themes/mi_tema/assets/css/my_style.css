@@ -10235,17 +10235,26 @@ nav {
 }
 .article__button {
   text-decoration: none;
-  color: #E67E22;
-  font-size: 2em;
+  background-color: #E67E22;
+  color: white;
+  margin: 1em;
+  font-size: 0.8em;
+  padding: 0.7em;
+}
+.article__button i {
+  font-size: 1.5em;
 }
 .article__button:hover {
-  color: #1B2508;
+  text-decoration: none;
+  background-color: #1B2508;
+  color: white;
 }
 
 .card {
   font-size: 0.7em;
   border: 2px solid #1B2508;
   color: #D35400;
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 .card span {

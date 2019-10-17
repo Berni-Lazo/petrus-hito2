@@ -10,7 +10,7 @@
         <div class="article__text">
           <h3 class="article__title_papyrus">Reserva Nacional Coyhaique</h3>
           <p class="article__description">Está ubicada al noreste de Coyhaique, en la Región de Aysén del General Carlos Ibáñez del Campo. Entre sus atractivos figuran...</p>
-          <a class="article__button" href="#collapseExample" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-alt-circle-down"></i></a>
+          <a class="article__button" href="#collapseExample" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
               <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>
@@ -28,8 +28,8 @@
         </div>
         <div class="article__text">
           <h3 class="article__title_papyrus">Monumento Nacional Dos Lagunas</h3>
-          <p class="article__description">Ubicada en la Región de Aysén del @General Carlos Ibáñez del Campo, comuna de Coyhaique. Se destaca por...</p>
-          <a class="article__button" href="#collapseExample2" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-alt-circle-down"></i></a>
+          <p class="article__description">Ubicada en la Región de Aysén del General Carlos Ibáñez del Campo, comuna de Coyhaique. Se destaca por...</p>
+          <a class="article__button" href="#collapseExample2" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
           <div class="collapse" id="collapseExample2">
             <div class="card card-body">
               <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>
@@ -48,7 +48,7 @@
         <div class="article__text">
           <h3 class="article__title_papyrus">Parque Nacional Cerro Castillo</h3>
           <p class="article__description">Destaca por la protección de las especies de fauna huemul, puma, guanaco, chingue patagónico y ...</p>
-          <a class="article__button" href="#collapseExample3" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-alt-circle-down"></i></a>
+          <a class="article__button" href="#collapseExample3" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
           <div class="collapse" id="collapseExample3">
             <div class="card card-body">
               <i class="fas fa-money-bill-wave"></i> <p> <span>Tarifa:</span> $15.000 por persona.</p>
@@ -67,7 +67,7 @@
         <div class="article__text">
           <h3 class="article__title_papyrus">Reserva Nacional Río Simpson</h3>
           <p class="article__description">Ubicada en el kilómetro 37 de la ruta que une las ciudades de Coyhaique y Puerto Aysén. El Río Simpson...</p>
-          <a class="article__button" href="#collapseExample4" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-alt-circle-down"></i></a>
+          <a class="article__button" href="#collapseExample4" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
           <div class="collapse" id="collapseExample4">
             <div class="card card-body">
               <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>

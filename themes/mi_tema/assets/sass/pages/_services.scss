@@ -40,11 +40,20 @@
 
     &__button {
     text-decoration: none;
-    color: $light-orange;
-    font-size: 2em;
+    background-color: $light-orange;
+    color: white;
+    margin: 1em;
+    font-size: .8em;
+    padding: .7em;
+
+    i {
+      font-size: 1.5em;
+    }
 
     &:hover {
-      color: $dark-green;
+      text-decoration: none;
+      background-color: $dark-green;
+      color: white;
       }
   }
 }
@@ -53,6 +62,7 @@
   font-size: .7em;
   border: 2px solid $dark-green;
   color: $dark-orange;
+  margin-top: 1em;
   margin-bottom: 2em;
 
   span {
