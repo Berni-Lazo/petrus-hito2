@@ -34,7 +34,7 @@ function dl_image_sizes( $sizes ) {
  */
 if ( function_exists( 'add_theme_support' ) ) {
 	add_image_size( 'slide', 1240, 450, true );			// Personalización del tamaño del slider
-	add_image_size( 'new', 300, 300, true );			// Personalización del tamaño de las noticias
+	add_image_size( 'new', 335, 250, true );			// Personalización del tamaño de las noticias
 	add_image_size( 'detail-new', 800, 600, true );		// Personalización del tamaño del detalle de las noticias
 	add_image_size( 'service', 600, 400, true );			// Personalización del tamaño de las rutas
 	add_image_size( 'gallery', 200, 200, true );		// Personalización del tamaño de la galeria

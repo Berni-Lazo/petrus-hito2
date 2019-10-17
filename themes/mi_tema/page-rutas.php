@@ -5,7 +5,7 @@
     <section class="articles services__articles">
       <article class="article services__article">
         <div class="article__img">
-            <img src="assets/images/reserva-coyh.jpg" alt="<Reserva Nacional Coyhaique">
+            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-coyh.jpg" alt="<Reserva Nacional Coyhaique">
         </div>
         <div class="article__text">
           <h3 class="article__title_papyrus">Reserva Nacional Coyhaique</h3>
@@ -24,7 +24,7 @@
       </article>
       <article class="article services__article">
         <div class="article__img">
-          <img src="assets/images/reserva-2lag.jpg" alt="<Monumento Nacional Dos Lagunas">
+          <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-2lag.jpg" alt="<Monumento Nacional Dos Lagunas">
         </div>
         <div class="article__text">
           <h3 class="article__title_papyrus">Monumento Nacional Dos Lagunas</h3>
@@ -43,7 +43,7 @@
       </article>
       <article class="article services__article">
         <div class="article__img">
-            <img src="assets/images/parque-castillo.jpg" alt="Parque Nacional Cerro Castillo">
+            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/parque-castillo.jpg" alt="Parque Nacional Cerro Castillo">
         </div>
         <div class="article__text">
           <h3 class="article__title_papyrus">Parque Nacional Cerro Castillo</h3>
@@ -62,7 +62,7 @@
       </article>
       <article class="article services__article">
         <div class="article__img">
-            <img src="assets/images/reserva-rio.jpg" alt="<Reserva Nacional Río Simpson">
+            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-rio.jpg" alt="<Reserva Nacional Río Simpson">
         </div>
         <div class="article__text">
           <h3 class="article__title_papyrus">Reserva Nacional Río Simpson</h3>

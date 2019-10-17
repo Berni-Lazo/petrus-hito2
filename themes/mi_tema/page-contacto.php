@@ -1,6 +1,6 @@
 <?php get_header() ?>
 <h2 class="contact__title">Contacto</h2>
-	<p class="contact__description">Para reservas o mayor información contactanos en:</p>
+	<p class="contact__description">Para reservas o mayor información contáctanos en:</p>
 
 	<div class="contact__box container">
 		<div class="contact__icons">
@@ -17,13 +17,14 @@
 				<i class="contact__icon_4 far fa-envelope"></i> <p class="contact__info"> petrusbirdwatching@gmail.com</p>
 			</div>
 		</div>
-		<form class="contact__form" action="contact.html" method="post">
-			<h5>Escribe tu nombre</h5>
-			<input type="text" name="Nombre" value="Nombre">
-			<h5>Escribe tu mensaje</h5>
-			<input type="text" name="Mensaje" value="Mensaje">
-			<a href="#">Enviar</a>
-		</form>
+		<div class="contact__form">
+			<?php the_post() ?>
+			<?php the_content(); ?>
+			<?php if ( is_active_sidebar( 'contact-widget' ) ) { ?>
+				<?php dynamic_sidebar( 'contact-widget' ); ?>
+			<?php }; ?>
+		</div>
 	</div>
+
 
 <?php get_footer() ?>

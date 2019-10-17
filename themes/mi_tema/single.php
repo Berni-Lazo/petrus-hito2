@@ -1,18 +1,27 @@
 <?php get_header() ?>
 
-<?php if ( have_posts() ) { ?>
-	<?php while ( have_posts() ) { ?>
-		<?php the_post(); ?>
+<?php $arg = array(
+ 'post_type'		 => 'post',
+ 'posts_per_page' => -1,
+ );
 
-		<?php the_post_thumbnail() ?>
-		<?php the_title() ?>
-		<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time>
-		<?php the_content() ?>
+ $get_arg = new WP_Query( $arg );
 
-	<?php } ?>
-<?php } else { ?>
-	<!-- Content -->
-<?php } wp_reset_query(); ?>
+ while ( $get_arg->have_posts() ) {
+ $get_arg->the_post();
+ ?>
 
-<?php get_sidebar() ?>
+ <article class="mb-5 container principal">
+	 <div class="text-center my-3">
+		  <?php the_post_thumbnail('detail', array('class' => 'w-100 h-auto my-4')); ?>
+			 <h2><?php the_title() ?></h2>
+		 <p><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></p>
+	 </div>
+	 <div>
+	 	<?php the_content() ?>
+	 </div>
+ </article>
+
+
+ <?php } wp_reset_postdata(); ?>
 <?php get_footer() ?>

@@ -14,7 +14,7 @@
               <div class="carousel-caption">
                 <h5 class="carousel-caption__title">Una experiencia única</h5>
                 <p class="carousel-caption__description d-none d-lg-block">Recorre la Carretera Austral en manos de personal entrenado para atenderte y ayudarte en lo necesario para que tu experiencia sea inolvidable</p>
-                <a class="carousel-caption__button" href="#">Conócenos</a>
+                <a class="carousel-caption__button" href="rutas">Conoce nuestras rutas</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -22,7 +22,7 @@
               <div class="carousel-caption">
                 <h5 class="carousel-caption__title">Turismo con acceso para todos</h5>
                 <p class="carousel-caption__description d-none d-lg-block">La flora, la fauna y los paisajes únicos de la Patagonia Chilena están al alcance de todos. Guías especializados en adaptar cada servicio a las características de su grupo.</p>
-                <a class="carousel-caption__button" href="#">Únete a la aventura</a>
+                <a class="carousel-caption__button" href="contacto">Reserva ahora</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -30,7 +30,7 @@
               <div class="carousel-caption">
                 <h5 class="carousel-caption__title">Fotografía especializada</h5>
                 <p class="carousel-caption__description d-none d-lg-block">Descubre y registra la riqueza única que existe en la gran variedad de aves que habitan la Región de Aysén</p>
-                <a class="carousel-caption__button" href="#">Mira nuestras fotos</a>
+                <a class="carousel-caption__button" href="galeria">Mira nuestras fotos</a>
               </div>
             </div>
             <div class="carousel-item">
@@ -38,7 +38,7 @@
               <div class="carousel-caption">
                 <h5 class="carousel-caption__title">La Patagonia te está esperando</h5>
                 <p class="carousel-caption__description d-none d-lg-block">No lo pienses más y únete a la aventura</p>
-                <a class="carousel-caption__button" href="#">Contáctanos</a>
+                <a class="carousel-caption__button" href="contacto">Contáctanos</a>
               </div>
             </div>
           </div>
@@ -101,13 +101,13 @@
            ?>
         <div class="container news__post">
            <div class="news__img">
-             <?php the_post_thumbnail('blog-square', array('class' => 'w100 h-auto')); ?>
+             <?php the_post_thumbnail('new', array('class' => 'w100 h-auto')); ?>
            </div>
            <div class="news__text">
              <h4 class="news__title"><?php the_title() ?></h4>
              <h6 class="news__subtitle"><p><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></p></h6>
              <p class="news__description"><?php the_excerpt(); ?></p>
-             <a class="news__button" href="#">Leer más</a>
+             <a class="news__button" href=""<?php the_permalink() ?>">Leer más</a>
            </div>
          </div>
            <?php } wp_reset_postdata(); ?>
