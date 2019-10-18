@@ -9957,6 +9957,11 @@ nav {
   padding-left: 1em;
   border-radius: 5%;
 }
+.news__button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #E67E22;
+}
 
 .icons {
   display: flex;
@@ -10165,6 +10170,7 @@ nav {
   background-color: #1B2508;
   margin-top: 0;
   padding-top: 120px;
+  padding-bottom: 1px;
 }
 .contact__title {
   color: #E67E22;
@@ -10260,6 +10266,7 @@ nav {
   background-color: #1B2508;
   margin-top: 0;
   padding-top: 120px;
+  padding-bottom: 1px;
 }
 .services__title {
   color: #E67E22;
@@ -10347,6 +10354,7 @@ nav {
 .gallery {
   margin-top: 0;
   padding-top: 120px;
+  padding-bottom: 1px;
 }
 .gallery__title {
   color: #E67E22;

@@ -131,7 +131,13 @@
 
   &__button {
     @include button;
+
+    &:hover {
+      text-decoration: none;
+      color: white;
+      background-color: $light-orange;
     }
+  }
 }
 
 .icons {

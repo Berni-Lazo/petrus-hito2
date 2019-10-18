@@ -21,7 +21,7 @@
               <img src="<?php echo get_theme_file_uri(); ?>/assets/images/slide2.jpg" class="img-carousel d-block w-100" alt="foto2">
               <div class="carousel-caption">
                 <h5 class="carousel-caption__title">Turismo con acceso para todos</h5>
-                <p class="carousel-caption__description d-none d-lg-block">La flora, la fauna y los paisajes únicos de la Patagonia Chilena están al alcance de todos. Guías especializados en adaptar cada servicio a las características de su grupo.</p>
+                <p class="carousel-caption__description d-none d-lg-block">La flora, la fauna y los paisajes únicos de la Patagonia Chilena están al alcance de todos.</p>
                 <a class="carousel-caption__button" href="contacto">Reserva ahora</a>
               </div>
             </div>

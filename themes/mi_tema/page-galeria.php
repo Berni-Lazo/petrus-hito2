@@ -4,6 +4,7 @@
   <?php the_post() ?>
 
   <?php if( function_exists('photo_gallery') ) { photo_gallery(7); } ?>
+  <?php get_template_part('_includes/back', 'button') ?>
 </main>
 
 <?php get_footer() ?>
