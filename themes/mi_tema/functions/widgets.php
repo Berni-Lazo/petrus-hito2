@@ -11,16 +11,16 @@
 function dl_widget_init() {
 
 	register_sidebar( array(
-		'name'			=> 'Página de Contacto',
-		'id'			=> 'contact-widget',
+		'name'			=> 'Video',
+		'id'			=> 'video-widget',
 		'before_widget'	=> '',
 		'after_widget'	=> '',
 		'before_title'	=> '',
 		'after_title'	=> '',
 	));
 	register_sidebar( array(
-		'name'			=> 'Barra Lateral',
-		'id'			=> 'sidebar-widget',
+		'name'			=> 'Mapa',
+		'id'			=> 'map-widget',
 		'before_widget'	=> '',
 		'after_widget'	=> '',
 		'before_title'	=> '',

@@ -75,6 +75,11 @@
               <i class="fas fa-mug-hot"></i><p> <span>Incluye:</span> Traslados y snack.</p>
               <i class="fas fa-check-square"></i> <p> <span>Recomendaciones:</span> LLevar ropa adecuada.</p>
               <i class="fas fa-map-pin"></i><span>Ubicación:</span>
+
+              <?php if ( is_active_sidebar( 'map-widget' ) ) { ?>
+        				<?php dynamic_sidebar( 'map-widget' ); ?>
+        			<?php }; ?>
+
             </div>
           </div>
         </div>

@@ -54,7 +54,7 @@
       </section>
 
       <section class="specialties main__specialties">
-        <h2>Somos especialistas en:</h2>
+        <h2 class="specialties__title">Somos especialistas en:</h2>
         <div class="main__articles">
           <article class="article main__article_1">
             <div class="article__icon">
@@ -113,6 +113,18 @@
          </div>
            <?php } wp_reset_postdata(); ?>
 
+      </section>
+
+      <section class="alliance">
+        <div class="alliance__header">
+          <h2 class="alliance__title"><span>PETRUS</span> es parte de:</h2>
+          <a class="alliance__logo" href="http://www.lodgecerronegro.com/es"> <img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo-lodge.png" alt="Logo lodge"></a>
+        </div>
+        <div class="alliance__video">
+          <?php if ( is_active_sidebar( 'video-widget' ) ) { ?>
+            <?php dynamic_sidebar( 'video-widget' ); ?>
+          <?php }; ?>
+        </div>
       </section>
 
       <div class="icons">

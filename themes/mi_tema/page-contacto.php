@@ -20,11 +20,7 @@
 		<div class="contact__form">
 			<?php the_post() ?>
 			<?php the_content(); ?>
-			<?php if ( is_active_sidebar( 'contact-widget' ) ) { ?>
-				<?php dynamic_sidebar( 'contact-widget' ); ?>
-			<?php }; ?>
 		</div>
 	</div>
-
 
 <?php get_footer() ?>

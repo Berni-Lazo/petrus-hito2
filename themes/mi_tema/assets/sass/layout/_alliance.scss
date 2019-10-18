@@ -1,0 +1,51 @@
+.alliance {
+  background-color: $green;
+  color: white;
+  padding: .5em;
+  text-align: center;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+  }
+
+  &__title {
+    span {
+      padding: .3em;
+      font-family: $papyrus;
+      font-weight: 600;
+    }
+  }
+
+  &__logo {
+    img {
+      width: 250px;
+    }
+  }
+
+  &__video {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+.alliance {
+  padding: 2em;
+
+  &__header {
+      flex-direction: row;
+      }
+}
+}
+
+@media (min-width: 992px) {
+  .alliance {
+      &__video {
+      padding: 2.5em;
+    }
+  }
+}
