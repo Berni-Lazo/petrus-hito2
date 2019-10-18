@@ -10163,7 +10163,8 @@ nav {
  */
 .contact {
   background-color: #1B2508;
-  margin-top: 90px;
+  margin-top: 0;
+  padding-top: 120px;
 }
 .contact__title {
   color: #E67E22;
@@ -10184,7 +10185,7 @@ nav {
   padding-top: 1em;
 }
 .contact__icons {
-  color: .contact__icons #1B2508;
+  color: #1B2508;
   display: flex;
   justify-content: space-around;
   font-weight: 500;
@@ -10241,11 +10242,6 @@ nav {
     opacity: 1;
   }
 }
-@media (min-width: 768px) {
-  .contact {
-    margin-top: 120px;
-  }
-}
 @media (min-width: 992px) {
   .contact__description {
     font-size: 1.2em;
@@ -10262,7 +10258,8 @@ nav {
 }
 .services {
   background-color: #1B2508;
-  margin-top: 90px;
+  margin-top: 0;
+  padding-top: 120px;
 }
 .services__title {
   color: #E67E22;
@@ -10318,11 +10315,6 @@ nav {
   font-style: italic;
 }
 
-@media (min-width: 768px) {
-  .services {
-    margin-top: 120px;
-  }
-}
 @media (min-width: 992px) {
   .services__description {
     font-size: 1.2em;
@@ -10353,17 +10345,12 @@ nav {
   }
 }
 .gallery {
-  margin-top: 90px;
+  margin-top: 0;
+  padding-top: 120px;
 }
 .gallery__title {
   color: #E67E22;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .gallery {
-    margin-top: 120px;
-  }
 }
 
 /*# sourceMappingURL=my_style.css.map */
