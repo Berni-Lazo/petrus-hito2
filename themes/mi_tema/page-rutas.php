@@ -6,88 +6,41 @@
       <p class="services__description">Puedes visitar una de las siguientes zonas de interés turístico de nuestra región:</p>
 
       <section class="articles services__articles">
-        <article class="article services__article">
-          <div class="article__img">
-              <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-coyh.jpg" alt="<Reserva Nacional Coyhaique">
-          </div>
-          <div class="article__text">
-            <h3 class="article__title_papyrus">Reserva Nacional Coyhaique</h3>
-            <p class="article__description">Está ubicada al noreste de Coyhaique, en la Región de Aysén del General Carlos Ibáñez del Campo. Entre sus atractivos figuran...</p>
-            <a class="article__button" href="#collapseExample" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>
-                <i class="far fa-clock"></i> <p> <span>Duración:</span> 4 horas.</p>
-                <i class="fas fa-mug-hot"></i><p> <span>Incluye:</span> Traslados y snack.</p>
-                <i class="fas fa-check-square"></i> <p> <span>Recomendaciones:</span> LLevar ropa adecuada.</p>
-                <i class="fas fa-map-pin"></i><span>Ubicación:</span>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="article services__article">
-          <div class="article__img">
-            <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-2lag.jpg" alt="<Monumento Nacional Dos Lagunas">
-          </div>
-          <div class="article__text">
-            <h3 class="article__title_papyrus">Monumento Nacional Dos Lagunas</h3>
-            <p class="article__description">Ubicada en la Región de Aysén del General Carlos Ibáñez del Campo, comuna de Coyhaique. Se destaca por...</p>
-            <a class="article__button" href="#collapseExample2" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
-            <div class="collapse" id="collapseExample2">
-              <div class="card card-body">
-                <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>
-                <i class="far fa-clock"></i> <p> <span>Duración:</span> 4 horas.</p>
-                <i class="fas fa-mug-hot"></i><p> <span>Incluye:</span> Traslados y snack.</p>
-                <i class="fas fa-check-square"></i> <p> <span>Recomendaciones:</span> LLevar ropa adecuada.</p>
-                <i class="fas fa-map-pin"></i><span>Ubicación:</span>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="article services__article">
-          <div class="article__img">
-              <img src="<?php echo get_theme_file_uri(); ?>/assets/images/parque-castillo.jpg" alt="Parque Nacional Cerro Castillo">
-          </div>
-          <div class="article__text">
-            <h3 class="article__title_papyrus">Parque Nacional Cerro Castillo</h3>
-            <p class="article__description">Destaca por la protección de las especies de fauna huemul, puma, guanaco, chingue patagónico y ...</p>
-            <a class="article__button" href="#collapseExample3" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
-            <div class="collapse" id="collapseExample3">
-              <div class="card card-body">
-                <i class="fas fa-money-bill-wave"></i> <p> <span>Tarifa:</span> $15.000 por persona.</p>
-                <i class="far fa-clock"></i> <p> <span>Duración:</span> 4 horas.</p>
-                <i class="fas fa-mug-hot"></i> <p> <span>Incluye:</span> Traslados y snack.</p>
-                <i class="fas fa-check-square"></i> <p> <span>Recomendaciones:</span> LLevar ropa adecuada.</p>
-                <i class="fas fa-map-pin"></i><span>Ubicación:</span>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="article services__article">
-          <div class="article__img">
-              <img src="<?php echo get_theme_file_uri(); ?>/assets/images/reserva-rio.jpg" alt="<Reserva Nacional Río Simpson">
-          </div>
-          <div class="article__text">
-            <h3 class="article__title_papyrus">Reserva Nacional Río Simpson</h3>
-            <p class="article__description">Ubicada en el kilómetro 37 de la ruta que une las ciudades de Coyhaique y Puerto Aysén. El Río Simpson...</p>
-            <a class="article__button" href="#collapseExample4" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">Leer más <i class="fas fa-arrow-alt-circle-down"></i></a>
-            <div class="collapse" id="collapseExample4">
-              <div class="card card-body">
-                <i class="fas fa-money-bill-wave"></i><p> <span>Tarifa:</span> $15.000 por persona.</p>
-                <i class="far fa-clock"></i> <p> <span>Duración:</span> 4 horas.</p>
-                <i class="fas fa-mug-hot"></i><p> <span>Incluye:</span> Traslados y snack.</p>
-                <i class="fas fa-check-square"></i> <p> <span>Recomendaciones:</span> LLevar ropa adecuada.</p>
-                <i class="fas fa-map-pin"></i><span>Ubicación:</span>
+        <?php $arg = array(
+         'post_type'     => 'rutas',
+         'posts_per_page' => -1,
+         'orderby' => 'rand'
+         );
 
-                <?php if ( is_active_sidebar( 'map-widget' ) ) { ?>
-          				<?php dynamic_sidebar( 'map-widget' ); ?>
-          			<?php }; ?>
+         $get_arg = new WP_Query( $arg );
 
-              </div>
-            </div>
-          </div>
-        </article>
+         while ( $get_arg->have_posts() ) {
+         $get_arg->the_post();
+         ?>
+
+         <article class="article services__article">
+           <div class="article__img">
+               <?php the_post_thumbnail('blog-square', array('class' => 'w100 h-auto')); ?>
+           </div>
+           <div class="article__text">
+             <h3 class="article__title_papyrus"><?php the_title() ?></h3>
+             <h6 class="article__description"><?php the_content() ?></h6>
+             <a class="article__button" href="#collapse<?php the_ID() ?>" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Detalles <i class="fas fa-arrow-alt-circle-down"></i></a>
+             <div class="collapse" id="collapse<?php the_ID() ?>">
+               <div class="card card-body">
+                <div> <i class="fas fa-money-bill-wave"></i> <span>Tarifa: </span> <p> $<?php the_field('tarifa'); ?> por persona.</p> </div>
+                <div> <i class="far fa-clock"></i> <span>Duración: </span> <p> <?php the_field('duracion'); ?> horas.</p> </div>
+                <div> <i class="fas fa-mug-hot"></i> <span>Incluye: </span><p> <?php the_field('incluye'); ?></p> </div>
+                <div> <i class="fas fa-check-square"></i> <span>Recomendaciones: </span> <p> <?php the_field('recomendaciones'); ?></p> </div>
+                <div> <i class="fas fa-map-pin"></i> <span>Ubicación: </span><p><?php the_field('ubicacion'); ?></p> </div>
+               </div>
+             </div>
+           </div>
+         </article>
+
+         <?php } wp_reset_postdata(); ?>
       </section>
       <?php get_template_part('_includes/back', 'button') ?>
 </main>
+
 <?php get_footer() ?>

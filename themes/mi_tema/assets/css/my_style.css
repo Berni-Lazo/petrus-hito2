@@ -9944,7 +9944,7 @@ nav {
 .news__description {
   color: white;
   font-style: italic;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 .news__button {
   font-weight: 700;
@@ -10193,7 +10193,7 @@ nav {
 .contact__icons {
   color: #1B2508;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-weight: 500;
   padding: 1em;
   margin: 1em auto;
@@ -10217,7 +10217,7 @@ nav {
   animation-delay: 1.2s;
 }
 .contact__info {
-  display: none;
+  font-size: 0.7em;
 }
 .contact__form {
   border: 5px solid #D35400;
@@ -10257,7 +10257,6 @@ nav {
     padding-top: 2em;
   }
   .contact__info {
-    display: block;
     padding: 1em;
     font-size: 1.1em;
   }
@@ -10289,6 +10288,9 @@ nav {
   font-family: "Papyrus Condensed";
   font-weight: 900;
   font-size: 1.5em;
+}
+.article__img {
+  margin-top: 1em;
 }
 .article__img img {
   width: 100%;
@@ -10342,6 +10344,7 @@ nav {
     min-width: 50%;
     max-width: 50%;
     margin-right: 1em;
+    margin-top: 0;
   }
   .article__img img {
     width: 100%;

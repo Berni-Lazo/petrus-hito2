@@ -2,27 +2,23 @@
 
 <main class="contact">
 
-<?php $arg = array(
- 'post_type'		 => 'post',
- 'posts_per_page' => -1,
- );
+  <?php if ( have_posts() ) { ?>
+  <?php while ( have_posts() ) { ?>
+  <?php the_post(); ?>
 
- $get_arg = new WP_Query( $arg );
+   <article class="container my-2 text-center border border-light rounded">
+  		 <h2 class="news__title mt-5"><?php the_title() ?></h2>
+  	   <h6 class="news__subtitle"><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></h6>
+       <?php the_post_thumbnail('detail-new', array('class' => 'w-90 h-auto my-4')); ?>
+       <h6 class="news__description text-justify"> <?php the_content() ?> </h6>
 
- while ( $get_arg->have_posts() ) {
- $get_arg->the_post();
- ?>
 
-   <article class="container my-2 border border-light rounded">
-  	  <?php the_post_thumbnail('detail-new', array('class' => 'w-80 h-auto mt-4')); ?>
-      <div class="text-center py-3">
-  			 <h2 class="news__title"><?php the_title() ?></h2>
-  		   <p class="news__subtitle"><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></p>
-  	  	 <p class="news__description"> <?php the_content() ?> </p>
-  	 </div>
    </article>
+ <?php } ?>
+ <?php } else { ?>
+ <!-- Content -->
+ <?php } wp_reset_query(); ?>
 
-    <?php } wp_reset_postdata(); ?>
     <?php get_template_part('_includes/back', 'button') ?>
   </main>
 <?php get_footer() ?>

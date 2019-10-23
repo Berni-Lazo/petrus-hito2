@@ -24,8 +24,8 @@
              </div>
              <div class="news__text">
                <h4 class="news__title"><?php the_title() ?></h4>
-               <h6 class="news__subtitle"><p><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></p></h6>
-               <p class="news__description"><?php the_excerpt(); ?></p>
+               <h6 class="news__subtitle"><i class="fas fa-calendar-alt"></i> <timedatetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time></h6>
+               <h6 class="news__description my-3"><?php the_excerpt() ?> </h6>
                <a class="news__button" href="<?php the_permalink() ?>">Leer más</a>
              </div>
            </div>
@@ -49,7 +49,7 @@
             <a href="https://www.facebook.com/PetrusBirdwatching/"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/petrus_birdwatching_patagonia"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/56999316921"><i class="fab fa-whatsapp"></i></a>
         </div>
  </main>
 <?php get_footer() ?>

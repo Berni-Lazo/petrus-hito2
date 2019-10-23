@@ -28,7 +28,7 @@
   &__icons {
     color: $dark-green;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-weight: 500;
     padding: 1em;
     margin: 1em auto;
@@ -61,7 +61,7 @@
 
 
   &__info {
-      display: none;
+    font-size: .7em;
   }
 
 
@@ -112,9 +112,10 @@
       }
 
       &__info {
-          display: block;
-          padding: 1em;
-          font-size: 1.1em;
+        padding: 1em;
+        font-size: 1.1em;
       }
+
+
   }
 }
