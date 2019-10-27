@@ -7,7 +7,7 @@
 
       <section class="articles services__articles">
         <?php $arg = array(
-         'post_type'     => 'rutas',
+         'post_type'     => 'ruta',
          'posts_per_page' => -1,
          'orderby' => 'rand'
          );

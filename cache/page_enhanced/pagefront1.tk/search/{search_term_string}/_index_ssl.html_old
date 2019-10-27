@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/apple-touch-icon.png" rel="apple-touch-icon" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/icon-hires.png" rel="icon" sizes="192x192" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/icon-normal.png" rel="icon" sizes="128x128" />
+<link href="https://pagefront1.tk/wp-content/themes/mi_tema/assets/ico/icon.svg" rel="mask-icon" sizes="any" color="#61b94c">	<title>Has buscado {search_term_string} - Petrus</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v12.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="object" />
+<meta property="og:title" content="Has buscado {search_term_string} - Petrus" />
+<meta property="og:url" content="https://pagefront1.tk/search/%7Bsearch_term_string%7D/" />
+<meta property="og:site_name" content="Petrus" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Has buscado {search_term_string} - Petrus" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://pagefront1.tk/#website","url":"https://pagefront1.tk/","name":"Petrus","potentialAction":{"@type":"SearchAction","target":"https://pagefront1.tk/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"SearchResultsPage","@id":"https://pagefront1.tk/search/%7Bsearch_term_string%7D/#webpage","url":"https://pagefront1.tk/search/%7Bsearch_term_string%7D/","inLanguage":"es-CL","name":"Has buscado {search_term_string} - Petrus","isPartOf":{"@id":"https://pagefront1.tk/#website"}}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Petrus &raquo; Feed" href="https://pagefront1.tk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Petrus &raquo; Feed de comentarios" href="https://pagefront1.tk/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Resultados de búsqueda para &#8220;{search_term_string}&#8221; Alimentador Petrus &raquo;" href="https://pagefront1.tk/search/%7Bsearch_term_string%7D/feed/rss2/" />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://pagefront1.tk/wp-includes/css/dist/block-library/style.min.css?ver=5.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://pagefront1.tk/wp-includes/css/dist/block-library/theme.min.css?ver=5.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://pagefront1.tk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_fonts-css'  href='https://pagefront1.tk/wp-content/plugins/photo-gallery/css/bwg-fonts/fonts.css?ver=0.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sumoselect-css'  href='https://pagefront1.tk/wp-content/plugins/photo-gallery/css/sumoselect.min.css?ver=3.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mCustomScrollbar-css'  href='https://pagefront1.tk/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.min.css?ver=1.5.37' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_googlefonts-css'  href='https://fonts.googleapis.com/css?family=Ubuntu&#038;subset=greek,latin,greek-ext,vietnamese,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all' />
+<link rel='stylesheet' id='bwg_frontend-css'  href='https://pagefront1.tk/wp-content/plugins/photo-gallery/css/styles.min.css?ver=1.5.37' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='https://pagefront1.tk/wp-content/themes/mi_tema/assets/css/flexslider.css?ver=2.7.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='fontawesome-css'  href='https://pagefront1.tk/wp-content/themes/mi_tema/assets/css/fontawesome.css?ver=5.6.3' type='text/css' media='screen' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://pagefront1.tk/wp-content/themes/mi_tema/assets/css/bootstrap.4.3.1.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='main_style-css'  href='https://pagefront1.tk/wp-content/themes/mi_tema/assets/css/style.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='my_style-css'  href='https://pagefront1.tk/wp-content/themes/mi_tema/assets/css/my_style.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='fonts-css'  href='https://fonts.googleapis.com/css?family=Ubuntu%3A400%2C400i%2C500%2C500i%2C700%2C700i&#038;display=swap&#038;ver=5.2.4' type='text/css' media='all' />
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/lib/jquery.min.js?ver=3.3.1'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/photo-gallery/js/jquery.sumoselect.min.js?ver=3.0.3'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/photo-gallery/js/jquery.mobile.min.js?ver=1.3.2'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/photo-gallery/js/jquery.mCustomScrollbar.concat.min.js?ver=1.5.37'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/photo-gallery/js/jquery.fullscreen-0.4.1.min.js?ver=0.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bwg_objectsL10n = {"bwg_field_required":"field is required.","bwg_mail_validation":"This is not a valid email address.","bwg_search_result":"There are no images matching your search.","bwg_select_tag":"Select Tag","bwg_order_by":"Order By","bwg_search":"Search","bwg_show_ecommerce":"Show Ecommerce","bwg_hide_ecommerce":"Hide Ecommerce","bwg_show_comments":"Show Comments","bwg_hide_comments":"Hide Comments","bwg_restore":"Restore","bwg_maximize":"Maximize","bwg_fullscreen":"Fullscreen","bwg_exit_fullscreen":"Exit Fullscreen","bwg_search_tag":"SEARCH...","bwg_tag_no_match":"No tags found","bwg_all_tags_selected":"All tags selected","bwg_tags_selected":"tags selected","play":"Play","pause":"Pause","is_pro":"","bwg_play":"Play","bwg_pause":"Pause","bwg_hide_info":"Hide info","bwg_show_info":"Show info","bwg_hide_rating":"Hide rating","bwg_show_rating":"Show rating","ok":"Ok","cancel":"Cancel","select_all":"Select all","lazy_load":"0","lazy_loader":"https:\/\/pagefront1.tk\/wp-content\/plugins\/photo-gallery\/images\/ajax_loader.png","front_ajax":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/photo-gallery/js/scripts.min.js?ver=1.5.37'></script>
+<link rel='https://api.w.org/' href='https://pagefront1.tk/wp-json/' />
+		<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 400ms;
+					transition-delay: 0ms;
+				}
+					</style>
+		<link rel="icon" href="https://pagefront1.tk/wp-content/uploads/2019/10/cropped-logo-1-e1571862680585-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://pagefront1.tk/wp-content/uploads/2019/10/cropped-logo-1-e1571862680585-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://pagefront1.tk/wp-content/uploads/2019/10/cropped-logo-1-e1571862680585-180x180.png" />
+<meta name="msapplication-TileImage" content="https://pagefront1.tk/wp-content/uploads/2019/10/cropped-logo-1-e1571862680585-270x270.png" />
+</head>
+<body>
+
+
+	<nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<a class="navbar__logo" href="https://pagefront1.tk"><img class="navbar__img" src="https://pagefront1.tk/wp-content/themes/mi_tema/assets/images/logo.png" alt="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fas fa-bars"></i>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarNav">
+					<ul id="menu-menu" class="navbar-nav ml-auto"><li  id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-35 nav-item"><a title="Inicio" href="https://pagefront1.tk/" class="nav-link">Inicio</a></li>
+<li  id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31 nav-item"><a title="Rutas" href="https://pagefront1.tk/rutas/" class="nav-link">Rutas</a></li>
+<li  id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30 nav-item"><a title="Galería" href="https://pagefront1.tk/galeria/" class="nav-link">Galería</a></li>
+<li  id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29 nav-item"><a title="Contacto" href="https://pagefront1.tk/contacto/" class="nav-link">Contacto</a></li>
+</ul>						</div>
+	</div>
+</nav>
+
+	<p>No hay resultados</p>
+
+		<footer class="footer">
+			<img class="footer__img" src="https://pagefront1.tk/wp-content/themes/mi_tema/assets/images/logo.png" alt="logo">
+		</div>
+	</footer>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/pagefront1.tk\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.4'></script>
+<script type='text/javascript'>
+window.lazySizesConfig = window.lazySizesConfig || {};
+
+window.lazySizesConfig.lazyClass    = 'lazyload';
+window.lazySizesConfig.loadingClass = 'lazyloading';
+window.lazySizesConfig.loadedClass  = 'lazyloaded';
+
+lazySizesConfig.loadMode = 1;
+</script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js?ver=3.3.1'></script>
+<script type='text/javascript'>
+lazySizes.init();
+</script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/lib/jquery-migrate.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/lib/jquery.flexslider.js'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/lib/popper.min.js?ver=1.14.7'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/lib/bootstrap.bundle.4.3.1.js'></script>
+<script type='text/javascript' src='https://pagefront1.tk/wp-content/themes/mi_tema/assets/js/functions.js?ver=1.0.0'></script>
+</body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Page Caching using disk: enhanced 
+
+Served from: pagefront1.tk @ 2019-10-25 18:16:49 by W3 Total Cache
+-->

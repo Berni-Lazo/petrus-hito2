@@ -50,8 +50,9 @@ function rutas_post_type() {
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
 	);
-	register_post_type( 'Rutas', $args );
+	register_post_type( 'ruta', $args );
 
 }
+
 add_action( 'init', 'rutas_post_type', 0 );
 ?>
