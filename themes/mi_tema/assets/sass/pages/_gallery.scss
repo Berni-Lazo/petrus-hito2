@@ -2,9 +2,11 @@
   margin-top: 0;
   padding-top: 120px;
   padding-bottom: 1px;
+  background-color: $green;
 
   &__title {
-    color: $light-orange;
+    color: white;
+    text-shadow: 3px 1px $dark-green;
     text-align: center;
   }
 }

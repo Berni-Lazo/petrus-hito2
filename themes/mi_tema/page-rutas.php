@@ -32,7 +32,7 @@
                 <div> <i class="far fa-clock"></i> <span>Duración: </span> <p> <?php the_field('duracion'); ?> horas.</p> </div>
                 <div> <i class="fas fa-mug-hot"></i> <span>Incluye: </span><p> <?php the_field('incluye'); ?></p> </div>
                 <div> <i class="fas fa-check-square"></i> <span>Recomendaciones: </span> <p> <?php the_field('recomendaciones'); ?></p> </div>
-                <div> <i class="fas fa-map-pin"></i> <span>Ubicación: </span><p><?php the_field('mapa'); ?></p> </div>
+                <div class="w-70"> <i class="fas fa-map-pin"></i> <span>Ubicación: </span><p><?php the_field('mapa'); ?></p> </div>
                </div>
              </div>
            </div>

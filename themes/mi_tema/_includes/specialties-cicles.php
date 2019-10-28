@@ -7,7 +7,7 @@
       </div>
       <div class="article__text">
         <h3 class="article__title">Aves nativas</h3>
-        <p class="article__description  d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="article__description  d-none d-lg-block">Con Petrus Birdwatching notarás la extraordinaria vida que hay en la patagonia. Especialmente de aves endémicas y emblemáticas de la Región de Aysén.</p>
       </div>
     </article>
 
@@ -17,7 +17,7 @@
       </div>
       <div class="article__text">
         <h3 class="article__title">Trekking</h3>
-        <p class="article__description  d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="article__description  d-none d-lg-block">Nuestro servicio ofrece senderismo en rutas próximas a la capital regional, en las cuales puedes disfrutar de Reservas, Monumentos y Parques Nacionales.</p>
       </div>
     </article>
     <article class="article main__article_3">
@@ -27,7 +27,7 @@
       </div>
       <div class="article__text">
         <h3 class="article__title">Fotografía</h3>
-        <p class="article__description d-none d-lg-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="article__description d-none d-lg-block">Con nuestra empresa, apreciarás el encanto de la belleza escénica que ofrece la Carretera Austral, una de las más emblemáticas de Sudamérica.</p>
       </div>
     </article>
   </div>

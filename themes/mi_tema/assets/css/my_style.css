@@ -9821,6 +9821,7 @@ nav {
 .footer__img {
   padding: 1em;
   width: 20%;
+  min-width: 150px;
 }
 
 .main__articles {
@@ -10065,7 +10066,7 @@ nav {
   font-weight: 600;
 }
 .alliance__logo img {
-  width: 250px;
+  width: 180px;
 }
 .alliance__video {
   width: 100%;
@@ -10083,6 +10084,9 @@ nav {
 @media (min-width: 992px) {
   .alliance__video {
     padding: 2.5em;
+  }
+  .alliance__logo img {
+    width: 250px;
   }
 }
 /*
@@ -10218,6 +10222,7 @@ nav {
 }
 .contact__info {
   font-size: 0.7em;
+  display: block;
 }
 .contact__form {
   border: 5px solid #D35400;
@@ -10358,9 +10363,11 @@ nav {
   margin-top: 0;
   padding-top: 120px;
   padding-bottom: 1px;
+  background-color: #699713;
 }
 .gallery__title {
-  color: #E67E22;
+  color: white;
+  text-shadow: 3px 1px #1B2508;
   text-align: center;
 }
 

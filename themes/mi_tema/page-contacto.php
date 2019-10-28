@@ -7,18 +7,18 @@
 			<div class="contact__icons">
 				<div class="">
 					<div class="">
-						<i class="contact__icon fab fa-whatsapp"></i> <p class="contact__info"> +56 9 99316921</p>
+						<i class="contact__icon fab fa-whatsapp"></i> <p class="contact__info px-2"> +56 9 99316921</p>
 					</div>
 					<div class="">
-						<i class="contact__icon_2 fab fa-facebook"></i> <p class="contact__info"> PetrusBirdwatching</p>
+						<i class="contact__icon_2 fab fa-facebook"></i> <p class="contact__info px-2"> PetrusBirdwatching</p>
 					</div>
 				</div>
 			  <div class="">
 					<div class="">
-						<i class="contact__icon_3 fab fa-instagram"></i> <p class="contact__info"> Petrus_Birdwatching_Patagonia</p>
+						<i class="contact__icon_3 fab fa-instagram"></i> <p class="contact__info px-2"> Petrus_Birdwatching_Patagonia</p>
 					</div>
 					<div class="">
-						<i class="contact__icon_4 far fa-envelope"></i> <p class="contact__info"> petrusbirdwatching@gmail.com</p>
+						<i class="contact__icon_4 far fa-envelope"></i> <p class="contact__info px-2"> petrusbirdwatching@gmail.com</p>
 					</div>
 			  </div>
 			</div>

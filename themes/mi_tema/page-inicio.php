@@ -35,7 +35,7 @@
 
         <section class="alliance">
           <div class="alliance__header">
-            <h2 class="alliance__title"><span>PETRUS</span> es parte de:</h2>
+            <h2 class="alliance__title"><span>PETRUS</span> en alianza con:</h2>
             <a class="alliance__logo" href="http://www.lodgecerronegro.com/es"> <img src="<?php echo get_theme_file_uri(); ?>/assets/images/logo-lodge.png" alt="Logo lodge"></a>
           </div>
           <div class="alliance__video">

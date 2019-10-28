@@ -22,7 +22,7 @@
 
   &__logo {
     img {
-      width: 250px;
+      width: 180px;
     }
   }
 
@@ -39,6 +39,7 @@
   &__header {
       flex-direction: row;
       }
+
 }
 }
 
@@ -46,6 +47,12 @@
   .alliance {
       &__video {
       padding: 2.5em;
+    }
+
+    &__logo {
+      img {
+        width: 250px;
+      }
     }
   }
 }
